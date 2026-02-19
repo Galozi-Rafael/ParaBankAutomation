@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oDHwgqMExECyHoTQHsUFCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/requestloan.htm" CVScreenId="e5044d9a-6325-4178-bdc0-639672441b90" DesignTimeRectangle="621, 653, 164, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Log Out' parentid='leftPanel' tag='A' href='logout.htm' innertext='Log Out' /&gt;" Guid="ec6b9614-c4bb-4afb-945f-89b0dd7fa7de" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Loan Request' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopLeft" X="28" Y="13" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="e822e21b3084bcdbd7471f07f613d4ac.jpg" xmlns="">0Eqv70CrTy0ujfLZ_oXFfNg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
