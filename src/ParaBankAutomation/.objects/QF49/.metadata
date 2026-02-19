@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome ParaBank  Accounts Overview",
+  "Type": "App",
+  "Id": "QF49l53260y-I_Iz3QKKYQ",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/QF49l53260y-I_Iz3QKKYQ",
+  "Created": "2026-02-19T20:27:50.4267528Z",
+  "Updated": "2026-02-19T20:27:50.4267528Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

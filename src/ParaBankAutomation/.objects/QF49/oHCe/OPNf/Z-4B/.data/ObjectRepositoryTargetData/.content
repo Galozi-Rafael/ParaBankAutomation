@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dg1RTTNHpUila4I2C2MUQQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/overview.htm" CVScreenId="094f0ad1-d49b-4f2e-9df8-e54f233cd2e7" DesignTimeRectangle="816, 460, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' class='title' visibleinnertext='Accounts Overview' /&gt;" Guid="616a3c45-34cd-4a17-ae4c-aae9d96f6de0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Accounts Overview' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="1cd089dc8ec7bda589c9338ac55815d4.jpg" xmlns="">0gpC6gMXNZk6KHXE8_tkVZg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

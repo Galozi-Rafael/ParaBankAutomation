@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome ParaBank  Accounts Overview",
+  "Type": "Screen",
+  "Id": "OPNfXvVjz0WDCUYp5LYLFg",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/OPNfXvVjz0WDCUYp5LYLFg",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/oHCeq0icWkitgaEIGlCfIw",
+  "Created": "2026-02-19T20:27:50.4730835Z",
+  "Updated": "2026-02-19T20:27:50.4730835Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
