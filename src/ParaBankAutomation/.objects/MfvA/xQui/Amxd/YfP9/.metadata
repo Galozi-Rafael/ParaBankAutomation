@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Experience the differen…",
+  "Type": "Element",
+  "Id": "YfP9mgru7UC-i3GxYj9jnw",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/YfP9mgru7UC-i3GxYj9jnw",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/AmxdL-AdLEG0mNsZc_U3dQ",
+  "Created": "2026-02-19T20:03:12.3543896Z",
+  "Updated": "2026-02-19T20:03:12.3543896Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

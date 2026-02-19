@@ -1,0 +1,6 @@
+{
+  "Name": "ParaBankAutomation",
+  "ProjectType": "Process",
+  "Description": "Processo para automatizar o site playground do ParaBank",
+  "MainFile": "Main.xaml"
+}

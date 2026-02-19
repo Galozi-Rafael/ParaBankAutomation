@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome ParaBank  Welcome  Online Banking",
+  "Type": "App",
+  "Id": "MfvAYOvSq0m9kfD5U0JxJw",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/MfvAYOvSq0m9kfD5U0JxJw",
+  "Created": "2026-02-19T20:01:55.9694449Z",
+  "Updated": "2026-02-19T20:01:55.9694449Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
