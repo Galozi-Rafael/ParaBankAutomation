@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xFjjQkI0gEy3WVLiAb7a8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/openaccount.htm" CVScreenId="3af7c1db-8d5a-49de-b70a-1aba045a0800" CvTextArea="815, 460, 167, 20" CvTextArgument="Open New Account" CvType="Text" DesignTimeRectangle="816, 460, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='title' aaname='Open New Account' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Open New Account' /&gt;" Guid="5d28c5b5-65e5-417e-8af4-6366a5677659" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="816, 460, 511, 208" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='openAccountForm' matching:id='fuzzy' fuzzylevel:id='0.0' tag='DIV' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='             ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Open New Account&amp;#xA;&amp;#xA;What type of Account would you like to open?&amp;#xA;&amp;#xA;CHECKING&amp;#xA;SAVINGS&amp;#xA;&amp;#xA;&amp;#xA;&amp;#xA;&amp;#xA;A minimum of $ 100,00 must be deposited into this account at time of opening. Please choose an existing account to transfer funds into the new account.&amp;#xA;&amp;#xA;12345&amp;#xA;12456&amp;#xA;12567&amp;#xA;12678&amp;#xA;12789&amp;#xA;12900&amp;#xA;13011&amp;#xA;13122&amp;#xA;13233&amp;#xA;13344&amp;#xA;54321' /&gt;" Guid="c79146d4-40c7-4a91-9bd8-b93b71872b78" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cf02ca190062d6e861ad19c9158d06f5.jpg" xmlns="">0Vfv18m5ypEChbxHDKQKjOw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
