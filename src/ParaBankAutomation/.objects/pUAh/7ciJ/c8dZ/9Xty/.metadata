@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Transfer Funds",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "9XtyJirAyUafjm87oB4E0g",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/9XtyJirAyUafjm87oB4E0g",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/c8dZZUxCbEa2JC2w8y_3CA",
+  "Created": "2026-02-19T22:08:55.289475Z",
+  "Updated": "2026-02-19T22:08:55.289475Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
