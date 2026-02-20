@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Bill Payment Service",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "FELf09fMeUijJU3aybD-yw",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/FELf09fMeUijJU3aybD-yw",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/BKOAVtNxTE29ihzfuO4WXQ",
+  "Created": "2026-02-20T12:15:44.780024Z",
+  "Updated": "2026-02-20T12:15:44.780024Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

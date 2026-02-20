@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4arNdDwkEEu7ZDDxXhNCSw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/billpay.htm" CVScreenId="6d6350f4-3459-424c-8aaa-fa781cbf2db0" DesignTimeRectangle="816, 460, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' aaname='Bill Payment Service' class='title' parentid='billpayForm' /&gt;" Guid="ba5a994f-a3a2-424b-9e93-8acda3f6bf76" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Bill Pay' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="7c502aa3e5f5d9aa9d535fcd10ba8367.jpg" xmlns="">0HesX-W7_SEa4giSAdMlftg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
