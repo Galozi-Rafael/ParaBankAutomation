@@ -39,7 +39,7 @@ Criar uma automação que percorra toda a caminhada de um usuário em um Interne
 
 ## Test Cases
 
--[x] TC_01_Login\Logout;
+- [x] TC_01_Login\Logout;
 
 ## Arquitetura de pastas
 
