@@ -93,7 +93,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="LogOutPageService" sap:VirtualizedContainerService.HintSize="1251,534.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="LogOutPageService" sap:VirtualizedContainerService.HintSize="825,577.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -119,11 +119,7 @@
               </sap:WorkflowViewStateService.ViewState>
               <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log Out'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="WindowMessages" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fab4c233-f663-4b3d-9a35-1040872b3cf7" Version="V5">
                 <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="localhost/parabank/requestloan.htm" CVScreenId="e5044d9a-6325-4178-bdc0-639672441b90" ContentHash="oDHwgqMExECyHoTQHsUFCw" DesignTimeRectangle="621, 653, 164, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Log Out' parentid='leftPanel' tag='A' href='logout.htm' innertext='Log Out' /&gt;" Guid="ec6b9614-c4bb-4afb-945f-89b0dd7fa7de" InformativeScreenshot="e822e21b3084bcdbd7471f07f613d4ac.jpg" Reference="XBSzV5-pqEyWKCeiFQmSOA/B_D_erOI9EyeHLrUsATywQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Loan Request' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-                    <uix:TargetAnchorable.PointOffset>
-                      <uix:PointOffset Position="TopLeft" X="28" Y="13" />
-                    </uix:TargetAnchorable.PointOffset>
-                  </uix:TargetAnchorable>
+                  <uix:TargetAnchorable BrowserURL="localhost/parabank/overview.htm" CVScreenId="f4552ba5-e7d3-418a-989a-f528bcd6f21b" ContentHash="SZRVxodjpEmTdZeX56Fu_g" DesignTimeRectangle="621, 601, 164, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Log Out' parentid='leftPanel' tag='A' href='logout.htm' innertext='Log Out' visibleinnertext='Log Out' /&gt;" Guid="eb12e507-8d02-4c7f-b4c9-47d2a9999497" InformativeScreenshot="c2316f3a6175de7a46ed4033bbddc177.jpg" Reference="XBSzV5-pqEyWKCeiFQmSOA/B_D_erOI9EyeHLrUsATywQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Accounts Overview' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                 </uix:NClick.Target>
               </uix:NClick>
             </Sequence>
