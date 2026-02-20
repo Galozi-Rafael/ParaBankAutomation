@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Welcome",
+  "Type": "Element",
+  "Id": "gwCUw2KgF0uRlwo7iN5iKg",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/gwCUw2KgF0uRlwo7iN5iKg",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/OPNfXvVjz0WDCUYp5LYLFg",
+  "Created": "2026-02-20T18:20:46.880414Z",
+  "Updated": "2026-02-20T18:20:46.880414Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
