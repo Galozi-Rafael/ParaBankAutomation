@@ -25,16 +25,16 @@ Criar uma automação que percorra toda a caminhada de um usuário em um Interne
 
 ## Pages
 
-1. Open Home;
-2. Open New Account;
-3. Accounts Overview;
-4. Transfer Funds;
-5. Bill Pay;
-6. Find Transaction;
-7. Update Contact Info;
-8. Request Loan;
-9. Register;
-10. Forgot Login info.
+- [x] Open Home;
+- [x] Open New Account;
+- [x] Accounts Overview;
+- [x] Transfer Funds;
+- [x] Bill Pay;
+- [x] Find Transaction;
+- [x] Update Contact Info;
+- [x] Request Loan;
+- [x] Register;
+- [ ] Forgot Login info.
 
 
 ## Test Cases
