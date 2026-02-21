@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="G2bi3qcbmUaf3YSz7KA97g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/register.htm;jsessionid=C99A184DE65A6E1251404E4F22D5D47D" CVScreenId="0705145e-b933-4219-bcac-d6bc20ee8e63" DesignTimeRectangle="948, 740, 206, 18" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.password' matching:id='fuzzy' fuzzylevel:id='0.0' type='password' tag='INPUT' class='input' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' rowName='Password:' /&gt;" Guid="d79e00b0-4dca-4859-88a3-4168eb41abba" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0705145e-b933-4219-bcac-d6bc20ee8e63" CvTextArea="876, 741, 67, 13" CvTextArgument="Password:" CvType="Text" DesignTimeRectangle="877, 741, 66, 15" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname='Password:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Password:' /&gt;" Guid="8c14f172-1638-42c9-a122-ee19e0b32a7b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9847416b73b58ebade339aa2b1034bf2.jpg" xmlns="">0YCxk2lks6EK6qx7qR4B-wA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

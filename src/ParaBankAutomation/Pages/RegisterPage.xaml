@@ -4,7 +4,7 @@
     <x:Property Name="in_Phase" Type="InArgument(x:String)" />
     <x:Property Name="in_RunId" Type="InArgument(x:String)" />
     <x:Property Name="in_TcId" Type="InArgument(x:String)" />
-    <x:Property Name="in_Browser" Type="InArgument(x:String)" />
+    <x:Property Name="in_Browser" Type="InArgument(ui:UiElement)" />
   </x:Members>
   <VisualBasic.Settings>
     <x:Null />

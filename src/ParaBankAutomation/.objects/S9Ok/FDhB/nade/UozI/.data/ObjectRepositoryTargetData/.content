@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Vt5peZV9VUC5kSOaFzDtSw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/register.htm;jsessionid=C99A184DE65A6E1251404E4F22D5D47D" CVScreenId="9ccdbc0b-5650-49ed-b565-424012d9be7e" DesignTimeRectangle="948, 620, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.address.zipCode' matching:id='fuzzy' fuzzylevel:id='0.0' type='text' tag='INPUT' class='input' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' rowName='Zip Code:' /&gt;" Guid="4666b189-6bfc-47a0-9645-aac3cd4243b8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9ccdbc0b-5650-49ed-b565-424012d9be7e" CvTextArea="881, 621, 61, 16" CvTextArgument="Zip Code:" CvType="Text" DesignTimeRectangle="883, 621, 60, 15" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname='Zip Code:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Zip Code:' /&gt;" Guid="494ea901-dce6-4b0a-984a-8788d7fc3294" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b0326f3c44685efe9690c98c461a42c6.jpg" xmlns="">0OdbK3wy8VESURiG6aLlWuQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

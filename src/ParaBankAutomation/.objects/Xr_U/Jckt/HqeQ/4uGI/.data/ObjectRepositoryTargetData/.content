@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IjG01txEuUKj4ZtQkIGpkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/register.htm" CVScreenId="cc894eb6-0426-4cf9-b8ce-7a1df4b2678f" DesignTimeRectangle="816, 443, 511, 29" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='rightPanel' tag='P' aaname='Your account was created successfully. You are now logged in.' innertext='Your account was created successfully. You are now logged in.' visibleinnertext='Your account was created successfully. You are now logged in.' /&gt;" Guid="17e69690-f663-422e-8258-fa8a51ade3b3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Customer Created' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="7d588facde5f666f28a2fbf0a9635482.jpg" xmlns="">0U_l-R78uhU--UFEEEq5fMw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

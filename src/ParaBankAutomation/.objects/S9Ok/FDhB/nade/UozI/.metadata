@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Zip Code",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "UozI9lXr0kyrZz8pjncIfQ",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/UozI9lXr0kyrZz8pjncIfQ",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/nademzNI4UOzppl9qToQ9w",
+  "Created": "2026-02-21T21:25:17.6265032Z",
+  "Updated": "2026-02-21T21:25:17.6265032Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

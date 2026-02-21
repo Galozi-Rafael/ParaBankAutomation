@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Confirm",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "w5kp223oqE-QGy21H8G5qw",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/w5kp223oqE-QGy21H8G5qw",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/nademzNI4UOzppl9qToQ9w",
+  "Created": "2026-02-21T21:26:47.9261449Z",
+  "Updated": "2026-02-21T21:26:47.9261449Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
