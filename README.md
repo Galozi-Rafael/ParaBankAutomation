@@ -34,7 +34,7 @@ Criar uma automação que percorra toda a caminhada de um usuário em um Interne
 - [x] Update Contact Info;
 - [x] Request Loan;
 - [x] Register;
-- [ ] Forgot Login info.
+- [x] Forgot Login Info.
 
 
 ## Test Cases
