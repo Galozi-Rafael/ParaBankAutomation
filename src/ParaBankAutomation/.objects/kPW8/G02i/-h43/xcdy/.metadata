@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Customer Lookup",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "xcdyJUOjf0C5l0brtAwRCQ",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/xcdyJUOjf0C5l0brtAwRCQ",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/-h43iszTqUKxM1Ie7JZ8yg",
+  "Created": "2026-02-21T21:51:07.8369758Z",
+  "Updated": "2026-02-21T21:51:07.8369758Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
