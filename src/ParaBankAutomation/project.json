@@ -4,6 +4,7 @@
   "description": "Processo para automatizar o site playground do ParaBank",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[3.4.0-preview]",
     "UiPath.System.Activities": "[25.12.2]",
     "UiPath.UIAutomation.Activities": "[25.10.26]"
   },
