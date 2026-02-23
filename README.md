@@ -41,6 +41,7 @@ Criar uma automação que percorra toda a caminhada de um usuário em um Interne
 
 - [x] TC_01_Login\Logout;
 - [x] TC_02_Register New User;
+- [x] TC_03_Open New Account;
 
 ## Arquitetura de pastas
 
