@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Izm9F9hkAEi0Y9O-y1AXxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/openaccount.htm" CVScreenId="00ef0a1f-4463-435b-afa2-9b0e71d8a9fc" CvTextArea="814, 460, 152, 20" CvTextArgument="Account Opened!" CvType="Text" DesignTimeRectangle="816, 460, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='openAccountResult' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='H1' type='' class='title' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Account Opened!' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Account Opened!' /&gt;" Guid="e4d4266d-a051-4356-82e1-7a7227be070c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="785, 460, 572, 93" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='rightPanel' tag='DIV' type='' class='' aaname='            ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Account Opened!&amp;#xA;&amp;#xA;Congratulations, your account is now open.&amp;#xA;&amp;#xA;Your new account number: 13677' /&gt;" Guid="93e18c35-8788-4d43-9058-a21a1d7114bd" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3037e8c5da1a8fc07c00fa047373a466.jpg" xmlns="">0iaRbTWNdkESFZrNTudThow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

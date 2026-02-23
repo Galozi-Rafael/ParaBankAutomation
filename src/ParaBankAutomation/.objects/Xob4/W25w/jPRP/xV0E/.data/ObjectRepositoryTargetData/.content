@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="X-nmdY4RTUGRNaopfok4iw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/openaccount.htm" CVScreenId="c7866bf6-d48c-4463-8f4c-2273ccf6236f" DesignTimeRectangle="816, 525, 140, 18" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='type' matching:id='fuzzy' fuzzylevel:id='0.0' tag='SELECT' type='' class='input' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fa6d27bf-668b-4a7f-9930-9bc7f5fc35f7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d7ce419e-4ad4-4c96-a08b-d90a27e287f7" DesignTimeRectangle="816, 497, 285, 15" FuzzySelectorArgument="&lt;webctrl parentid='openAccountForm' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='B' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='What type of Account would you like to open?' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='What type of Account would you like to open?' /&gt;" Guid="ad7a7e62-918e-49ed-b955-b3116ad46508" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4f7578b98f15d443fac6193026d47348.jpg" xmlns="">0RIA-1WsHo0ai7XdWyqRvYQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

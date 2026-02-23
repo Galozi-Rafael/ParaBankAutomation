@@ -1,0 +1,14 @@
+﻿{
+  "Name": "What type of Account wo…",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "xV0EvO1CnEqTb4Q-fvtumQ",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/xV0EvO1CnEqTb4Q-fvtumQ",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/jPRPRSxuskmjuVLiOSGPxg",
+  "Created": "2026-02-23T21:17:59.0059804Z",
+  "Updated": "2026-02-23T21:17:59.0059804Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

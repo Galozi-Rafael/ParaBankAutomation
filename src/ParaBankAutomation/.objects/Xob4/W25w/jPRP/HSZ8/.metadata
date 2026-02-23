@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Account Opened!",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "HSZ8le3DgUyAcjX9LLRs0w",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/HSZ8le3DgUyAcjX9LLRs0w",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/jPRPRSxuskmjuVLiOSGPxg",
+  "Created": "2026-02-23T21:21:15.6897915Z",
+  "Updated": "2026-02-23T21:21:15.6897915Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
