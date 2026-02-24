@@ -116,6 +116,38 @@ Validar que um novo usuário consegue se registrar corretamente no sistema.
 - Usuário autenticado automaticamente após registro;
 
 
+## TC_03_Open New Account
+
+### Descrição
+Validar que um usuário autenticado consegue abrir uma nova conta bancária.
+
+### Objetivo
+- Validar criação de nova conta corrente ou poupança;
+- Validar geração automática de número de conta;
+- Validar que nova conta aparece em Accounts Overview;
+
+### Pré-condição
+- Usuário autenticado;
+- Usuário já possui pelo menos uma conta;
+
+### Passo a Passo do Teste
+
+1. Realizar login com usuário válido;
+2. Clicar em **Open New Account**;
+3. Selecionar tipo de conta (Checking ou Savings);
+4. Selecionar conta base para funding;
+5. Clicar em **Open New Account**;
+6. Validar que o número da nova conta foi gerado;
+7. Navegar até **Accounts Overview**;
+
+### Resultado Esperado
+
+- Nova conta criada com sucesso;
+- Número da conta exibido;
+- Conta listada em Accounts Overview;
+
+
+
 
 ## Arquitetura de pastas
 
