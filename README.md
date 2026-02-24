@@ -76,5 +76,46 @@ Validar que um usuário previamente cadastrado consegue realizar login com suces
 - Sessão encerrada corretamente;
 
 
+## TC_02_Register New User
+
+### Descrição
+Validar que um novo usuário consegue se registrar corretamente no sistema.
+
+### Objetivo
+- Validar preenchimento de formulário de cadastro;
+- Validar criação de novo usuário;
+- Validar login automático após registro;
+
+### Pré-condição
+- Usuário ainda não cadastrado;
+- Sistema acessível;
+
+### Passo a Passo do Teste
+
+1. Abrir o navegador;
+2. Navegar até: `https://parabank.parasoft.com/parabank/index.htm`;
+3. Clicar em **Register**;
+4. Preencher todos os campos obrigatórios:
+   - First Name;
+   - Last Name;
+   - Address;
+   - City;
+   - State;
+   - Zip Code;
+   - Phone;
+   - SSN;
+   - Username;
+   - Password;
+   - Confirm Password;
+5. Clicar no botão **Register**;
+
+### Resultado Esperado
+
+- Conta criada com sucesso;
+- Mensagem de boas-vindas exibida;
+- Usuário autenticado automaticamente após registro;
+
+
+
 ## Arquitetura de pastas
 
