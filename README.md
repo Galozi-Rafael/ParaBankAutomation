@@ -148,7 +148,38 @@ Validar que um usuário autenticado consegue abrir uma nova conta bancária.
 - Conta listada em Accounts Overview;
 
 
+## TC_04_Transfer Funds
 
+### Descrição
+Validar que um usuário autenticado consegue transferir fundos entre duas contas próprias com sucesso.
+
+### Objetivo
+- Validar funcionalidade de transferência interna entre contas;
+- Validar débito da conta de origem;
+- Validar crédito na conta de destino;
+- Validar exibição da mensagem de sucesso da operação;
+
+### Pré-condição
+- Usuário autenticado no sistema;
+- Usuário possui pelo menos duas contas ativas;
+- Contas com saldo suficiente para transferência;
+
+### Passo a Passo do Teste
+
+1. Realizar login com usuário válido;
+2. Clicar em **Transfer Funds** no menu principal;
+3. Informar o valor da transferência no campo **Amount**;
+4. Selecionar a conta de origem no campo **From Account**;
+5. Selecionar a conta de destino no campo **To Account**;
+6. Clicar no botão **Transfer**;
+
+### Resultado Esperado
+
+- Página de confirmação exibida;
+- Mensagem indicando que a transferência foi concluída com sucesso;
+- Valor debitado da conta de origem;
+- Valor creditado na conta de destino;
+- Transação registrada no histórico das contas envolvidas;
 
 ## Arquitetura de pastas
 
