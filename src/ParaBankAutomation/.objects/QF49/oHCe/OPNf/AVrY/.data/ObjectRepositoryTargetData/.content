@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UK4KPOX1W02sYIVkCDOGeA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/overview.htm" CVScreenId="e3aeaf77-fe94-4303-ba42-d750f2f30860" CvType="AnyWordGroup" DesignTimeRectangle="820, 557, 38, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='accountTable' tag='TABLE' /&gt;&lt;webctrl tableRow='3' tag='A' /&gt;" Guid="9c840d27-bf7b-4635-8bba-4d4e778d3373" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Accounts Overview' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="033bedfe199e73f2599f43c358288bf6.jpg" xmlns="">0gJ983Fws9k2iLjlzppIH2w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

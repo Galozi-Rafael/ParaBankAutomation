@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HHGGThLE_0K9tdgjI3Mbmw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/transfer.htm" CVScreenId="39cb43ad-5bea-4d0f-80c6-8d282de58914" DesignTimeRectangle="814, 527, 140, 18" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='toAccountId' tag='SELECT' class='input' /&gt;" Guid="254a102f-dc97-4bc6-82c2-75ff05ad1d96" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Transfer Funds' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="b04f89295cbb196be0bf9b291da1be21.jpg" xmlns="">0skJLJH7biUiMOuh5IXS7Lg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

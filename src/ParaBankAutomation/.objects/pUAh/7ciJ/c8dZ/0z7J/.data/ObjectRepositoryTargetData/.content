@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qacFeS_tBU69DiRx7bP0iw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/transfer.htm" CVScreenId="16613f46-78a8-4a35-aaf4-2819b6f03c8c" CvType="AnyWordGroup" DesignTimeRectangle="816, 495, 511, 29" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='showResult' tag='P' /&gt;" Guid="36fe146a-1add-45a9-ad35-a9be163e8cc6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Transfer Funds' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c8203a9f4a8caefd4e165d13f50dde3c.jpg" xmlns="">0F7hVr7eJRUOg_mmyNZq9-A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

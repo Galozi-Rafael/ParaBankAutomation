@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3iVhXPuyc0aWiyawxgLWug" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/transfer.htm" CVScreenId="16613f46-78a8-4a35-aaf4-2819b6f03c8c" CvTextArea="815, 460, 165, 20" CvTextArgument="Transfer Complete!" CvType="Text" DesignTimeRectangle="816, 460, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='showResult' tag='H1' aaname='Transfer Complete!' /&gt;" Guid="b9f35d84-07e2-4bc5-8bca-3965b4ddd597" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Transfer Funds' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="bb16bac2f9521a63a5d4db90c12148b3.jpg" xmlns="">0PxeieZHo5UCy6Te7WsBZQA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Transfer Complete!",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ClRp4QAwnk-QJPEzn2cIDA",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/ClRp4QAwnk-QJPEzn2cIDA",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/c8dZZUxCbEa2JC2w8y_3CA",
+  "Created": "2026-02-25T23:17:06.07614Z",
+  "Updated": "2026-02-25T23:17:06.07614Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
