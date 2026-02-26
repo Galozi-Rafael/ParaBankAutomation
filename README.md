@@ -43,6 +43,7 @@ Criar uma automação que percorra toda a caminhada de um usuário em um Interne
 - [x] TC_02_Register New User;
 - [x] TC_03_Open New Account;
 - [x] TC_04_Transfer Funds;
+- [x] TC_05_Bill Pay;
 
 
 ## TC_01_Login\Logout
@@ -180,6 +181,46 @@ Validar que um usuário autenticado consegue transferir fundos entre duas contas
 - Valor debitado da conta de origem;
 - Valor creditado na conta de destino;
 - Transação registrada no histórico das contas envolvidas;
+
+## TC_05_Bill Pay
+
+### Descrição
+Validar que um usuário autenticado consegue realizar o pagamento de uma conta (Bill Payment) com sucesso utilizando uma de suas contas bancárias.
+
+### Objetivo
+- Validar preenchimento do formulário de pagamento;
+- Validar débito do valor na conta selecionada;
+- Validar exibição da mensagem de confirmação;
+- Validar registro da transação no histórico da conta;
+
+### Pré-condição
+- Usuário autenticado no sistema;
+- Usuário possui pelo menos uma conta ativa;
+- Conta com saldo suficiente para realizar o pagamento;
+
+### Passo a Passo do Teste
+
+1. Realizar login com usuário válido;
+2. Clicar em **Bill Pay** no menu principal;
+3. Preencher os dados do beneficiário:
+   - Payee Name;
+   - Address;
+   - City;
+   - State;
+   - Zip Code;
+   - Phone Number;
+   - Account Number;
+   - Verify Account Number;
+4. Informar o valor no campo **Amount**;
+5. Selecionar a conta de origem no campo **From Account**;
+6. Clicar no botão **Send Payment**;
+
+### Resultado Esperado
+
+- Página de confirmação exibida;
+- Mensagem indicando que o pagamento foi enviado com sucesso;
+- Valor debitado da conta selecionada;
+- Transação registrada no histórico da conta;
 
 ## Arquitetura de pastas
 
