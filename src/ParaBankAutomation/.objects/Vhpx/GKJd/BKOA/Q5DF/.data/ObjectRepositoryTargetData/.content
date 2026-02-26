@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8rSHRoii6UeJK9mMVcbALA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/billpay.htm" CVScreenId="25930433-bdcf-42c3-9937-10e9900f60aa" CvElementArea="943, 748, 209, 20" CvType="InputBox" DesignTimeRectangle="945, 749, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='input' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ec61d334-562c-4c11-8c4b-e214235a3638" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Bill Pay' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="25930433-bdcf-42c3-9937-10e9900f60aa" CvTextArea="833, 750, 107, 16" CvTextArgument="Verify Account #:" CvType="Text" DesignTimeRectangle="834, 750, 106, 15" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname='Verify Account #:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Verify Account #:' /&gt;" Guid="3d1b3d06-17a2-4d18-a97e-1ac4650fe785" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d0ca304504544daffdf82b8a5a1c6dba.jpg" xmlns="">0ZHLr1Z4u7025m7uGT2hZjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NnqS3H58d0CmzHqS5869PA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/billpay.htm" CVScreenId="da5fbe59-fccb-401c-afe9-d948c3162fb1" CvElementArea="943, 676, 209, 20" CvType="InputBox" DesignTimeRectangle="945, 677, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='input email-434213a8-f99a-4374-a989-112d464a0fd5' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="803e0978-c1e5-4bc7-a071-333b4bb5293c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Bill Pay' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="da5fbe59-fccb-401c-afe9-d948c3162fb1" CvTextArea="900, 678, 40, 13" CvTextArgument="Email:" CvType="Text" DesignTimeRectangle="901, 678, 39, 15" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname='Email:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email:' /&gt;" Guid="4afbe180-14eb-48da-a0d0-6ec280980132" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="47379b1a637956853c4d2171f5b12dba.jpg" xmlns="">0MJK3noQLqkGbdv7sTV3OIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

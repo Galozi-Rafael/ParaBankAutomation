@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Bill Payment Complete",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "PwcI_29AvkyGud6VZM6IDg",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/PwcI_29AvkyGud6VZM6IDg",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/Z-5XCc1CaEKszuzl9KX6lA",
+  "Created": "2026-02-26T16:45:30.5209684Z",
+  "Updated": "2026-02-26T16:45:30.5209684Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

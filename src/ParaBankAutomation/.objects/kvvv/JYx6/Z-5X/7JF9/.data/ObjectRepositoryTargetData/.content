@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Stp2T17Kp0-leEhZ0LmEgw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/billpay.htm" DesignTimeRectangle="816, 495, 511, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='billpayResult' tag='P' /&gt;" Guid="abf5ecdd-e614-44c9-a693-5d7ec423350b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Bill Payment Complete' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="8df13104cb3c230c15bf295d2854476e.jpg" xmlns="">0oQzUk5QzUUCg7FBESQbheA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

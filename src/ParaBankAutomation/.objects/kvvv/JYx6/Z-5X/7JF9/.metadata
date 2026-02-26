@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Bill Payment to Ze da C…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "7JF90Yd_BEikJ2P5bsZU6Q",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/7JF90Yd_BEikJ2P5bsZU6Q",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/Z-5XCc1CaEKszuzl9KX6lA",
+  "Created": "2026-02-26T16:46:10.3876701Z",
+  "Updated": "2026-02-26T16:46:10.3876701Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

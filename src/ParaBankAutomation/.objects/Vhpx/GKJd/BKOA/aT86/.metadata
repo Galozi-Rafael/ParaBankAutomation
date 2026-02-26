@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Send Payment",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "aT862lrpk0-7srS1PDp2mA",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/aT862lrpk0-7srS1PDp2mA",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/BKOAVtNxTE29ihzfuO4WXQ",
+  "Created": "2026-02-26T16:39:12.6898504Z",
+  "Updated": "2026-02-26T16:39:12.6898504Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
