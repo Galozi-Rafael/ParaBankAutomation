@@ -36,14 +36,16 @@ Criar uma automação que percorra toda a caminhada de um usuário em um Interne
 - [x] Register;
 - [x] Forgot Login Info.
 
-
 ## Test Cases
 
-- [x] TC_01_Login\Logout;
-- [x] TC_02_Register New User;
-- [x] TC_03_Open New Account;
-- [x] TC_04_Transfer Funds;
-- [x] TC_05_Bill Pay;
+- [x] TC_01: Login\Logout;
+- [x] TC_02: Register New User;
+- [x] TC_03: Open New Account;
+- [x] TC_04: Transfer Funds;
+- [x] TC_05: Bill Pay;
+- [ ] TC_06: Find Transactions;
+- [x] TC_07: Update Contact Info;
+- [x] TC_08: Apply for a Loan.
 
 
 ## TC_01_Login\Logout
@@ -214,6 +216,47 @@ Validar que um usuário autenticado consegue realizar o pagamento de uma conta (
 4. Informar o valor no campo **Amount**;
 5. Selecionar a conta de origem no campo **From Account**;
 6. Clicar no botão **Send Payment**;
+
+
+
+## TC_07_UpdateContactInfo
+
+### Descrição
+Validar que um usuário autenticado consegue atualizar suas informações de contato com sucesso.
+
+### Objetivo
+- Validar edição dos dados cadastrais do usuário;
+- Validar persistência das informações atualizadas;
+- Validar exibição de mensagem de confirmação;
+- Garantir que os dados alterados permanecem salvos após navegação ou novo login;
+
+### Pré-condição
+- Usuário autenticado no sistema;
+- Usuário previamente cadastrado;
+
+### Passo a Passo do Teste
+
+1. Realizar login com usuário válido;
+2. Clicar em **Update Contact Info** no menu principal;
+3. Alterar um ou mais campos de contato, como:
+   - First Name;
+   - Last Name;
+   - Address;
+   - City;
+   - State;
+   - Zip Code;
+   - Phone Number;
+4. Clicar no botão **Update Profile**;
+5. Navegar para outra página;
+6. Retornar à página **Update Contact Info** para validar persistência;
+
+### Resultado Esperado
+
+- Mensagem de confirmação indicando atualização bem-sucedida;
+- Dados alterados exibidos corretamente na tela;
+- Informações persistidas após navegação ou novo login;
+
+
 
 ### Resultado Esperado
 
