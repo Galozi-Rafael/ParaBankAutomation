@@ -257,6 +257,42 @@ Validar que um usuário autenticado consegue atualizar suas informações de con
 - Informações persistidas após navegação ou novo login;
 
 
+## TC_08_Apply for a Loan
+
+### Descrição
+Validar que um usuário autenticado consegue solicitar um empréstimo (Loan) com sucesso através do sistema.
+
+### Objetivo
+- Validar preenchimento dos campos obrigatórios da solicitação;
+- Validar envio da requisição de empréstimo;
+- Validar exibição do status da solicitação (Approved ou Denied);
+- Validar geração de nova conta de empréstimo quando aprovado;
+
+### Pré-condição
+- Usuário autenticado no sistema;
+- Usuário possui pelo menos uma conta ativa;
+- Conta com saldo ou histórico válido para solicitação;
+
+### Passo a Passo do Teste
+
+1. Realizar login com usuário válido;
+2. Clicar em **Request Loan** no menu principal;
+3. Informar o valor desejado no campo **Loan Amount**;
+4. Informar o valor da entrada no campo **Down Payment**;
+5. Selecionar a conta de origem no campo **From Account**;
+6. Clicar no botão **Apply Now**;
+
+### Resultado Esperado
+
+- Página de resposta exibida;
+- Status da solicitação informado (Approved ou Denied);
+- Em caso de aprovação:
+- Nova conta de empréstimo gerada;
+- Conta listada em **Accounts Overview**;
+- Em caso de reprovação:
+- Mensagem informando que o empréstimo não foi aprovado;
+
+
 
 ### Resultado Esperado
 
