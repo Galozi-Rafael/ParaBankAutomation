@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Down Payment",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "SRLnAjQyl0SsemtQTnTIbA",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/SRLnAjQyl0SsemtQTnTIbA",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/kbJJCTICvEGGtn6b7Gz4og",
+  "Created": "2026-02-27T23:34:25.8315745Z",
+  "Updated": "2026-02-27T23:34:25.8315745Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

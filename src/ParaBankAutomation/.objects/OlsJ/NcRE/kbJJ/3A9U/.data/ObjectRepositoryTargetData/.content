@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VlI9UTdekUacgXFqX8Rqiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/requestloan.htm" CVScreenId="f196768f-abb8-45e1-ad22-ed48c93bf487" DesignTimeRectangle="978, 452, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='amount' tableRow='1' tag='INPUT' rowName='Loan Amount: $' /&gt;" Guid="2bdd6e89-3ee5-4e94-9fe6-fade2eb78bd4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Loan Request' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="da552f1d31317514bb0118f1cc8d9117.jpg" xmlns="">0eREeLzYbcUa4SrEXSrlSRQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="f4wMjef5H0C9FV2LKrU83w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/requestloan.htm" CVScreenId="72edcbb1-f9ca-45bd-8b05-3144c992c9ff" DesignTimeRectangle="950, 503, 352, 21" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='requestLoanResult' tag='TABLE' /&gt;&lt;webctrl id='loanStatus' tableRow='3' tag='TD' parentid='requestLoanResult' rowName='Status:' /&gt;" Guid="584be17e-3117-4181-bd7f-89893278946e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Loan Request' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="41eb7ed70591570d4f33fb0a2017d6d9.jpg" xmlns="">0xifC1PBGuEqOFIT1aOe6mw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kVb7sngrLEiySOkEBDz3Og" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/requestloan.htm" CVScreenId="f196768f-abb8-45e1-ad22-ed48c93bf487" CvElementArea="977, 475, 208, 21" CvType="InputBox" DesignTimeRectangle="978, 476, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='downPayment' type='' tag='INPUT' class='input' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="e8f1d80a-2c65-4ccc-ab57-c6c9fe183c7a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Loan Request' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f196768f-abb8-45e1-ad22-ed48c93bf487" DesignTimeRectangle="865, 477, 97, 15" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Down Payment:' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' rowName='Down Payment: $' check:innerText='Down Payment:' /&gt;" Guid="3540cbb5-5d8a-4d24-b69a-2afaad98e209" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="80cbd6764d8ddd7633dbc421f89a4d12.jpg" xmlns="">0_aHULyUJtU26n5JXKOwT7w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
