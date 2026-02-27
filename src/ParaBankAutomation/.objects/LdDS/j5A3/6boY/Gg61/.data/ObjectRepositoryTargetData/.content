@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zBbMlN5jeESoexkju_AcxQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/updateprofile.htm" CVScreenId="bf8097d7-e4e1-428d-8bf7-84091019f295" DesignTimeRectangle="945, 528, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.lastName' matching:id='fuzzy' fuzzylevel:id='0.0' type='text' tag='INPUT' class='input' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' rowName='Last Name:' /&gt;" Guid="1d05dbf0-a716-4faa-97be-d5ecfb27b932" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Update Profile' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bf8097d7-e4e1-428d-8bf7-84091019f295" DesignTimeRectangle="870, 529, 70, 15" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname='Last Name:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Last Name:' /&gt;" Guid="df00903a-29ee-4c2a-b5a0-ff92300e8c84" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="695310c62179f9e2ce8f00840f0b4692.jpg" xmlns="">0BdqTaNQ0rUGDwUbmAgbzMg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

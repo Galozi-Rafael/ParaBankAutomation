@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_0qAXKrROkaIB2IJs960Gg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/updateprofile.htm" CVScreenId="bf8097d7-e4e1-428d-8bf7-84091019f295" DesignTimeRectangle="621, 605, 164, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Update Contact Info' parentid='leftPanel' tag='A' href='updateprofile.htm' /&gt;" Guid="ea7d0fa8-85fa-49e8-b7bf-23c7efc96eb9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Update Profile' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="ed6cf72800ded929770439de661853c9.jpg" xmlns="">09znLN67hvE-FodFeImJQbg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qD-eMeKfok-WZ-axX2D7mA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/updateprofile.htm" CVScreenId="6b642d83-29a0-413a-8288-eec4e0e2c43c" DesignTimeRectangle="816, 460, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='updateProfileResult' tag='H1' aaname='Profile Updated' /&gt;" Guid="27dcb551-4437-4714-b2ff-8e5e29798a2c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Update Profile' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="25e146225a3101973aec69ba17977447.jpg" xmlns="">0JYVHdx4XlEaJeB-j-0l3fA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
