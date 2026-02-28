@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Register",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "T6iyhmeTmUOggX15o4fuFw",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/T6iyhmeTmUOggX15o4fuFw",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/AmxdL-AdLEG0mNsZc_U3dQ",
+  "Created": "2026-02-28T21:34:43.9804569Z",
+  "Updated": "2026-02-28T21:34:43.9804569Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

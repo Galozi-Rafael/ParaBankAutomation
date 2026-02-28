@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="39bFuwD1W06LMvubQXTsHQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/overview.htm" CVScreenId="e3af1a38-71c5-44e4-a13f-2bc9f4fd9429" DesignTimeRectangle="621, 433, 164, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='leftPanel' tag='A' aaname='Open New Account' href='openaccount.htm' /&gt;" Guid="332c75f1-b0d0-4040-bfe6-885789ee2327" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Accounts Overview' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="1036e4bc53532dd43e680e29eb707780.jpg" xmlns="">0kkd9w9PGbke-W83VwJVouQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

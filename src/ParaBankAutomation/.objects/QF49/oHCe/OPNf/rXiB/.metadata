@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Find Transactions",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "rXiBy31ioEGyco6pk1W0JQ",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/rXiBy31ioEGyco6pk1W0JQ",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/OPNfXvVjz0WDCUYp5LYLFg",
+  "Created": "2026-02-28T21:32:17.5207313Z",
+  "Updated": "2026-02-28T21:32:17.5207313Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

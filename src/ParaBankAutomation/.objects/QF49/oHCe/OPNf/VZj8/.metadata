@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Accounts Overview(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "VZj8bQV6ekGWtwXrHP2ulQ",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/VZj8bQV6ekGWtwXrHP2ulQ",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/OPNfXvVjz0WDCUYp5LYLFg",
+  "Created": "2026-02-28T21:33:50.5120491Z",
+  "Updated": "2026-02-28T21:33:50.5120491Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

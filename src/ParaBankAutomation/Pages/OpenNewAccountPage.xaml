@@ -104,31 +104,36 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OpenNewAccountPage" sap:VirtualizedContainerService.HintSize="1245,1251" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OpenNewAccountPage" sap:VirtualizedContainerService.HintSize="1245,1445" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence - Open New Account" sap:VirtualizedContainerService.HintSize="522,1228" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Sequence - Open New Account" sap:VirtualizedContainerService.HintSize="522,1422" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;[&quot; + in_TcId + &quot;] [INFO] [&quot; + in_Phase + &quot;] START | runId=&quot; + in_RunId + &quot; | url=&quot; + in_BaseUrl]" />
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,970" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[in_Browser]" IsDisplayNameAuto="True" ScopeGuid="7e09d1c1-9f51-41f6-9079-30b0f5b27152" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1164" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[in_Browser]" IsDisplayNameAuto="True" ScopeGuid="7e09d1c1-9f51-41f6-9079-30b0f5b27152" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,848" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1042" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open New Account'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7e09d1c1-9f51-41f6-9079-30b0f5b27152" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost/parabank/overview.htm" CVScreenId="e3af1a38-71c5-44e4-a13f-2bc9f4fd9429" ContentHash="39bFuwD1W06LMvubQXTsHQ" DesignTimeRectangle="621, 433, 164, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='leftPanel' tag='A' aaname='Open New Account' href='openaccount.htm' /&gt;" Guid="332c75f1-b0d0-4040-bfe6-885789ee2327" InformativeScreenshot="1036e4bc53532dd43e680e29eb707780.jpg" Reference="XBSzV5-pqEyWKCeiFQmSOA/f477zCx5PEqPdk60hjmZuA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Accounts Overview' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                </uix:NClick.Target>
+              </uix:NClick>
               <uix:NCheckState DisplayName="Check App State 'Open New Account'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,788" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="7e09d1c1-9f51-41f6-9079-30b0f5b27152" Version="V5">
                 <uix:NCheckState.IfExists>
                   <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_4">
@@ -153,7 +158,7 @@
                 <uix:NCheckState.Target>
                   <uix:TargetAnchorable BrowserURL="localhost/parabank/openaccount.htm" CVScreenId="3af7c1db-8d5a-49de-b70a-1aba045a0800" ContentHash="xFjjQkI0gEy3WVLiAb7a8g" CvTextArea="815, 460, 167, 20" CvTextArgument="Open New Account" CvType="Text" DesignTimeRectangle="816, 460, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='title' aaname='Open New Account' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Open New Account' /&gt;" Guid="5d28c5b5-65e5-417e-8af4-6366a5677659" InformativeScreenshot="cf02ca190062d6e861ad19c9158d06f5.jpg" Reference="XBSzV5-pqEyWKCeiFQmSOA/9b8SO63BrkOFgZ-w-Ho2zw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target DesignTimeRectangle="816, 460, 511, 208" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='openAccountForm' matching:id='fuzzy' fuzzylevel:id='0.0' tag='DIV' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='             ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Open New Account&amp;#xA;&amp;#xA;What type of Account would you like to open?&amp;#xA;&amp;#xA;CHECKING&amp;#xA;SAVINGS&amp;#xA;&amp;#xA;&amp;#xA;&amp;#xA;&amp;#xA;A minimum of $ 100,00 must be deposited into this account at time of opening. Please choose an existing account to transfer funds into the new account.&amp;#xA;&amp;#xA;12345&amp;#xA;12456&amp;#xA;12567&amp;#xA;12678&amp;#xA;12789&amp;#xA;12900&amp;#xA;13011&amp;#xA;13122&amp;#xA;13233&amp;#xA;13344&amp;#xA;54321' /&gt;" Guid="c79146d4-40c7-4a91-9bd8-b93b71872b78" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>

@@ -100,19 +100,15 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OverviewPage" sap:VirtualizedContainerService.HintSize="1245,1251" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OverviewPage" sap:VirtualizedContainerService.HintSize="1245,1445" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence - OverviewPage" sap:VirtualizedContainerService.HintSize="522,1228" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Sequence - OverviewPage" sap:VirtualizedContainerService.HintSize="522,1422" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
-        <Variable x:TypeArguments="x:String" Name="BaseUrl">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">http://localhost:8080/parabank/overview.htm</Literal>
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:String" Default="http://localhost:8080/parabank/overview.htm" Name="BaseUrl" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -120,18 +116,23 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;[&quot; + in_TcId + &quot;] [INFO] [&quot; + in_Phase + &quot;] START | runId=&quot; + in_RunId + &quot; | url=&quot; + BaseUrl]" />
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome ParaBank  Accounts Overview" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,970" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[in_Browser]" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="9a88bcfb-ee75-4574-9934-75879658f67b" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome ParaBank  Accounts Overview" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1164" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[in_Browser]" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="9a88bcfb-ee75-4574-9934-75879658f67b" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,848" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1042" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Accounts Overview(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9a88bcfb-ee75-4574-9934-75879658f67b" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost/parabank/overview.htm" CVScreenId="e3af1a38-71c5-44e4-a13f-2bc9f4fd9429" ContentHash="8Dpp2-UP00GIHZOEG7zGpA" DesignTimeRectangle="621, 457, 164, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Accounts Overview' parentid='leftPanel' tag='A' href='overview.htm' /&gt;" Guid="53160148-051e-4b56-b6e1-a84b85f6bfa2" InformativeScreenshot="edba0013ed578b6392ccd4db74f6d441.jpg" Reference="XBSzV5-pqEyWKCeiFQmSOA/VZj8bQV6ekGWtwXrHP2ulQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Accounts Overview' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                </uix:NClick.Target>
+              </uix:NClick>
               <uix:NCheckState DisplayName="Check App State 'Accounts Overview'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,788" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="9a88bcfb-ee75-4574-9934-75879658f67b" Version="V5">
                 <uix:NCheckState.IfExists>
                   <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_4">

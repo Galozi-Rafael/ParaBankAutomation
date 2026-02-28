@@ -102,31 +102,36 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="BillPayPage" sap:VirtualizedContainerService.HintSize="1245,1445" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="BillPayPage" sap:VirtualizedContainerService.HintSize="1245,1639" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence - Bill Pay" sap:VirtualizedContainerService.HintSize="522,1422" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Sequence - Bill Pay" sap:VirtualizedContainerService.HintSize="522,1616" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;[&quot; + in_TcId + &quot;] [INFO] [&quot; + in_Phase + &quot;] START | runId=&quot; + in_RunId + &quot; | url=&quot; + in_BaseUrl]" />
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1164" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[in_Browser]" IsDisplayNameAuto="True" ScopeGuid="26d40818-57c6-4371-90c9-130a0993fc98" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1358" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[in_Browser]" IsDisplayNameAuto="True" ScopeGuid="26d40818-57c6-4371-90c9-130a0993fc98" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1042" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1236" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Bill Pay'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="26d40818-57c6-4371-90c9-130a0993fc98" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost/parabank/overview.htm" CVScreenId="6cefd00f-f353-4eec-9acd-23d00ab99d09" ContentHash="nC8g9reYgUqK1ubdJyVCkg" DesignTimeRectangle="621, 505, 164, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Bill Pay' parentid='leftPanel' tag='A' href='billpay.htm' /&gt;" Guid="049ad534-9220-49e3-b9d8-48cdefc283e8" InformativeScreenshot="5f56a823b5759feb555864ac6f699d9d.jpg" Reference="XBSzV5-pqEyWKCeiFQmSOA/Fb80LroxTUy0Di5gKf-PYw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Accounts Overview' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                </uix:NClick.Target>
+              </uix:NClick>
               <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Bill Pay'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="26d40818-57c6-4371-90c9-130a0993fc98" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="localhost/parabank/billpay.htm" CVScreenId="6e323e74-7f22-4e21-9bfe-25753c58d3cd" ContentHash="I4k4py7X_kOGIYZEEAzurA" DesignTimeRectangle="621, 557, 164, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Bill Pay' parentid='leftPanel' tag='A' href='billpay.htm' innertext='Bill Pay' /&gt;" Guid="8a49a615-75ba-4cdf-9589-39793c35d1c8" InformativeScreenshot="6f213af604a08581034fd36b3cdaeb3a.jpg" Reference="XBSzV5-pqEyWKCeiFQmSOA/O1ew4FcxykeXYNntahSKjw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Bill Pay' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />

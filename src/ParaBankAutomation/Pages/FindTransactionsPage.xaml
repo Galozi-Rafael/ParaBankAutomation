@@ -93,31 +93,36 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="FindTransactionsPage" sap:VirtualizedContainerService.HintSize="1245,1251" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="FindTransactionsPage" sap:VirtualizedContainerService.HintSize="1245,1445" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence - Find Transaction" sap:VirtualizedContainerService.HintSize="522,1228" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Sequence - Find Transaction" sap:VirtualizedContainerService.HintSize="522,1422" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;[&quot; + in_TcId + &quot;] [INFO] [&quot; + in_Phase + &quot;] START | runId=&quot; + in_RunId + &quot; | url=&quot; + in_BaseUrl]" />
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,970" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[in_Browser]" IsDisplayNameAuto="True" ScopeGuid="26d40818-57c6-4371-90c9-130a0993fc98" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1164" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[in_Browser]" IsDisplayNameAuto="True" ScopeGuid="26d40818-57c6-4371-90c9-130a0993fc98" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,848" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1042" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Find Transactions'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="26d40818-57c6-4371-90c9-130a0993fc98" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost/parabank/overview.htm" CVScreenId="cfc397f7-f655-4e00-bf5a-c370333a7b2d" ContentHash="q8JSnrRrrkuV5Fwlbsa-Xg" DesignTimeRectangle="621, 529, 164, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Find Transactions' parentid='leftPanel' tag='A' href='findtrans.htm' /&gt;" Guid="a9d7c13a-f71d-4c4e-91dc-4bbb6ca87152" InformativeScreenshot="b2efaf6206a0db72355f64469883c351.jpg" Reference="XBSzV5-pqEyWKCeiFQmSOA/rXiBy31ioEGyco6pk1W0JQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Accounts Overview' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                </uix:NClick.Target>
+              </uix:NClick>
               <uix:NCheckState DisplayName="Check App State 'Bill Payment Service'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,788" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="26d40818-57c6-4371-90c9-130a0993fc98" Version="V5">
                 <uix:NCheckState.IfExists>
                   <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_3">

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Forgot login info",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "vjGdtrBPu0mQNNFLNIaSww",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/vjGdtrBPu0mQNNFLNIaSww",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/AmxdL-AdLEG0mNsZc_U3dQ",
+  "Created": "2026-02-28T21:32:55.4543096Z",
+  "Updated": "2026-02-28T21:32:55.4543096Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
