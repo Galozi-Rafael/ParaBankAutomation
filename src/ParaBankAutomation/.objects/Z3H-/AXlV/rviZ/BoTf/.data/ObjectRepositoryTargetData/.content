@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EZ8NzcvbaU-xtm09VlL2vw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/findtrans.htm" CVScreenId="2d6cc68a-7e40-4140-9c69-346b0edb480b" DesignTimeRectangle="816, 769, 138, 19" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='findByDateRange' tag='BUTTON' type='submit' /&gt;" Guid="c53ad4b6-f125-4cdc-81a8-43ccc6157fe7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Find Transactions' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="d7b8fad106436d23f689302b41573fa3.jpg" xmlns="">0pm4oPSEj-0CL-Vc8llE8ng</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

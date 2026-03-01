@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VLa8-aQ6KkCd8eC5erJzxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/findtrans.htm" CVScreenId="f0aa14a2-a517-473a-8262-10067da132f5" DesignTimeRectangle="1045, 731, 146, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='toDate' tag='INPUT' /&gt;" Guid="f8337383-66d6-457f-89cc-7cc2c3361157" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Find Transactions' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="a1476ee5665462545214c0274daad5e8.jpg" xmlns="">0BIJUdqia0UeYxjDeMA8pwg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

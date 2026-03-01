@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT toDate",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "MC40ljYp1EanPDuOaJXSaA",
+  "Reference": "XBSzV5-pqEyWKCeiFQmSOA/MC40ljYp1EanPDuOaJXSaA",
+  "ParentRef": "XBSzV5-pqEyWKCeiFQmSOA/rviZ99DomkyseuobE2kIjQ",
+  "Created": "2026-03-01T22:01:52.5795665Z",
+  "Updated": "2026-03-01T22:01:52.5795665Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

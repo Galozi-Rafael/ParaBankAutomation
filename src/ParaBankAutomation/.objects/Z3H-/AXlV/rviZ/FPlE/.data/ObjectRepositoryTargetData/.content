@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1e-XC1vRWUagaoo6vN4Trg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/parabank/findtrans.htm" CVScreenId="04aab0df-ee80-4874-a1cb-b0e97076291c" DesignTimeRectangle="816, 408, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='resultContainer' tag='H1' visibleinnertext='Transaction Results' /&gt;" Guid="1d1a3396-fe14-4872-bc13-08ae6738774a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Find Transactions' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="ae5e095a95bccea77fe798ca8ef7b9d6.jpg" xmlns="">0NHExGFCnHkWrAZStG4PqhQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
