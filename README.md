@@ -43,7 +43,7 @@ Criar uma automação que percorra toda a caminhada de um usuário em um Interne
 - [x] TC_03: Open New Account;
 - [x] TC_04: Transfer Funds;
 - [x] TC_05: Bill Pay;
-- [ ] TC_06: Find Transactions;
+- [x] TC_06: Find Transactions;
 - [x] TC_07: Update Contact Info;
 - [x] TC_08: Apply for a Loan.
 
@@ -216,6 +216,42 @@ Validar que um usuário autenticado consegue realizar o pagamento de uma conta (
 4. Informar o valor no campo **Amount**;
 5. Selecionar a conta de origem no campo **From Account**;
 6. Clicar no botão **Send Payment**;
+
+
+
+## TC_06_FindTransaction
+
+### Descrição
+Validar que um usuário autenticado consegue buscar transações utilizando o filtro por intervalo de datas, considerando como data inicial 10 dias antes da data atual.
+
+### Objetivo
+- Validar funcionalidade de busca por intervalo de datas;
+- Validar preenchimento dinâmico de datas (Today - 10 dias);
+- Validar retorno das transações dentro do período informado;
+- Validar exibição correta da lista de resultados;
+
+### Pré-condição
+- Usuário autenticado no sistema;
+- Usuário possui histórico de transações nos últimos 10 dias;
+
+### Passo a Passo do Teste
+
+1. Realizar login com usuário válido;
+2. Clicar em **Find Transactions** no menu principal;
+3. Selecionar uma conta válida;
+4. Selecionar a opção de busca por **Date Range**;
+5. Informar a data inicial como:
+   - Data atual menos 10 dias;
+6. Informar a data final como:
+   - Data atual;
+7. Clicar no botão **Find Transactions**;
+
+### Resultado Esperado
+
+- Lista de transações exibida na tela;
+- Todas as transações apresentadas devem estar dentro do intervalo informado;
+- Nenhuma transação fora do período deve ser exibida;
+- Sistema não deve apresentar erro ao utilizar datas dinâmicas;
 
 
 
